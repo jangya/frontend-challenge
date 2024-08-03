@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New York Recreational Cricket League</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the New York Recreational Cricket League</h1>
+        <p>Join us to experience the thrill of cricket right in the heart of New York City!</p>
+        <button id="theme-toggle">Toggle Day/Night Mode</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#join">Join</a></li>
+            <li><a href="#fees">Fees</a></li>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About the League</h2>
+        <p>The New York Recreational Cricket League (NYRCL) is dedicated to promoting the sport of cricket among New Yorkers of all ages. We offer a friendly but competitive environment where players can improve their skills and enjoy the game.</p>
+    </section>
+
+    <section id="join">
+        <h2>How to Join</h2>
+        <p>Interested in playing? We welcome players of all skill levels! To join, simply fill out our online registration form below, or contact us at join@nyrcl.com for more details.</p>
+        <form id="registration-form">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone Number">
+            <select id="skill-level">
+                <option value="">Select Skill Level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <section id="fees">
+        <h2>League Fees</h2>
+        <p>The registration fee for the league is $150 per player, which covers the entire season. This fee includes uniforms, equipment rental, and insurance.</p>
+    </section>
+
+    <section id="location">
+        <h2>Location of Games</h2>
+        <p>All games are held at the iconic Central Park Cricket Fields, located near the north end of Central Park, easily accessible via public transportation.</p>
+        <div id="map"></div>
+    </section>
+
+    <section id="schedule">
+        <h2>Season Schedule</h2>
+        <p>The NYRCL season runs from April through September, with games typically held on weekends. Here is the schedule for the upcoming season:</p>
+        <div id="calendar"></div>
+    </section>
+
+    <footer>
+        <p>Contact Us: </p>
+        <p>Email: info@nyrcl.com | Phone: (555) 123-4567</p>
+        <p>Follow us on our social media pages for updates and more information.</p>
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
